@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <meta charset="UTF-8">
+  <title>Golden Dragon — доставка из Китая</title>
+
+  <meta name="description" content="Профессиональная карго доставка из Иу в Россию и Таджикистан. Авиа, авто, море. Калькулятор доставки.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <link rel="stylesheet" href="style.css">
+   <meta name="theme-color" content="#0f2a55">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+<div class="logo">
+  <img src="img/logo.png" alt="Golden Dragon Cargo">
+</div>
+    <div class="burger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#services" onclick="closeMenu()">Услуги</a>
+      <a href="#calculator" onclick="closeMenu()">Калькулятор</a>
+      <a href="#process" onclick="closeMenu()">Процесс</a>
+      <a href="#about" onclick="closeMenu()">О нас</a>
+      <a href="#contacts" onclick="closeMenu()">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-bg">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay"></div>
+<div class="hero-content" data-aos="fade-right">
+  <h1>
+       Доставка грузов из Китая <br>
+    <span class="highlight">в Россию и СНГ</span>
+  </h1>
+  
+  <p class="hero-subtitle">
+    Быстро, безопасно и <strong>под ключ</strong>. Карго и белая доставка для бизнеса и частных клиентов.
+  </p>
+
+  <div class="hero-features">
+    <span><i class="fa-solid fa-check"></i> Выкуп товара</span>
+    <span><i class="fa-solid fa-check"></i> Консолидация</span>
+    <span><i class="fa-solid fa-check"></i> Страховка</span>
+    <span><i class="fa-solid fa-check"></i> Сопровождение</span>
+  </div>
+
+  <div class="hero-btns">
+    <a href="#calculator" class="btn-primary">Рассчитать стоимость</a>
+    <a href="https://t.me/usmnvl2" class="btn-secondary">Консультация</a>
+  </div>
+</div>
+  </section>
+
+  <!-- STATS -->
+   <section class="stats">
+      <div class="container stats-flex">
+      <div class="stat-card">
+        <span class="stat-number">7+</span>
+        <span class="stat-label">лет опыта</span>
+       </div>
+       <div class="stat-card">
+        <span class="stat-number">1200+</span>
+        <span class="stat-label">отправок</span>
+       </div>
+       <div class="stat-card">
+        <span class="stat-number">СНГ</span>
+        <span class="stat-label">география</span>
+       </div>
+       <div class="stat-card">
+        <span class="stat-number">24/7</span>
+        <span class="stat-label">поддержка</span>
+       </div>
+      </div>
+  </section>
+
+  <!-- ЧТО МЫ ДЕЛАЕМ -->
+  <section class="doing-short">
+    <div class="container" data-aos="fade-up">
+      <h2 class="title">Что мы делаем</h2>
+
+      <p class="doing-text">
+        Мы организуем доставку грузов из Китая в Россию и страны СНГ —
+        от поиска и выкупа товара до получения груза на складе в РФ.
+      </p>
+
+      <p class="doing-text">
+        Работаем с предпринимателями, компаниями и частными клиентами.
+        Берём на себя весь процесс: логистику, оформление, упаковку,
+        контроль, документы и полное сопровождение.
+      </p>
+    </div>
+  </section>
+
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <h2 class="title" data-aos="fade-up">Наши услуги</h2>
+
+    <div class="services">
+
+      <div class="service" data-aos="fade-up" data-type="air">
+        <i class="fa-solid fa-plane"></i>
+        <h3>Авиа доставка</h3>
+        <p>Быстро и надёжно</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="auto">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Авто карго</h3>
+        <p>Оптимально по цене</p>
+      </div>
+
+      <div class="service" data-aos="fade-up"data-type="sea">
+        <i class="fa-solid fa-ship"></i>
+        <h3>Морская доставка</h3>
+        <p>Для больших объёмов</p>
+      </div>
+
+      <div class="service" data-aos="fade-up"data-type="rail">
+        <i class="fa-solid fa-train"></i>
+        <h3>Ж/Д доставка</h3>
+        <p>Стабильно и выгодно</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="white">
+        <i class="fa-solid fa-box"></i>
+        <h3>Беллая доставка</h3>
+        <p>Белая доставка с официальной документацией</p>
+      </div>
+      <div class="service" data-aos="fade-up"data-type="fulfillment">
+        <i class="fa-solid fa-warehouse"></i>
+        <h3>Фулфилмент</h3>
+        <p>Хранение и комплектация</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="express">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Экспресс доставка</h3>
+        <p>Экспресс доставка документов</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="money">
+        <i class="fa-solid fa-money-bill-transfer"></i>
+        <h3>Трансфер средств</h3>
+        <p>Оплата поставщикам</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="warehouse">
+        <i class="fa-solid fa-warehouse"></i>
+        <h3>Склад в Иу</h3>
+        <p>Приём и хранение грузов</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="buyout">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h3>Выкуп товаров</h3>
+        <p>1688 / Alibaba / Taobao</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="packing">
+        <i class="fa-solid fa-box"></i>
+        <h3>Упаковка</h3>
+        <p>Фото и видео отчёт</p>
+      </div>
+
+      <div class="service" data-aos="fade-up" data-type="history">
+        <i class="fa-solid fa-search"></i>
+        <h3>Отслеживание и контроль</h3>
+        <p>Полный контроль над грузом на всех этапах</p>
+    </div>
+  </div>
+    <div id="serviceModal" class="service-modal">
+   <div class="service-modal-content">
+    <span class="close-modal" onclick="closeService()">&times;</span>
+
+    <div class="service-modal-icon">
+      <i id="modalIcon" class="fa-solid fa-plane"></i>
+    </div>
+
+    <h3 id="modalTitle">Авиа доставка</h3>
+    <p id="modalText">
+      Быстрая доставка грузов из Иу в Россию и Таджикистан авиа транспортом.
+    </p >
+    <a id="modalWhatsapp" target="_blank" class="modal-whatsapp">
+      <i class="fa-brands fa-whatsapp"></i> WhatsApp
+    </a >
+    <a id="modalTelegram" target="_blank" class="modal-telegram">
+     <i class="fa-brands fa-telegram"></i> Telegram
+    </a>
+  </div>
+</section>
+
+<section id="calculator" class="calculator-section">
+  <div class="container">
+    <h2>Калькулятор доставки</h2>
+    <p>Рассчитайте примерную стоимость доставки</p>
+
+    <div class="calculator-box">
+
+      <select id="country">
+      <option value="ru">🇷🇺 Россия</option>
+       <option value="tj">🇹🇯 Таджикистан</option>
+</select>
+
+<select id="deliveryType">
+  <option value="air">✈️ Авиа доставка</option>
+  <option value="auto">🚚 Авто доставка</option>
+  <option value="rail">🚆 ЖД доставка</option>
+</select>
+
+<div class="calc-toggle" onclick="toggleDimensions()">
+  📦 Ввести габариты
+</div>
+
+<input type="number" id="weight" placeholder="Вес (кг)" min="1">
+
+<input type="number" id="volume" placeholder="Объём (м³)" step="0.01" min="0.01">
+
+<div class="dimensions hidden" id="dimensionsBlock">
+  <input type="number" id="length" placeholder="Длина (см)">
+  <input type="number" id="width" placeholder="Ширина (см)">
+  <input type="number" id="height" placeholder="Высота (см)">
+</div>
+
+      <button onclick="calculateDelivery()">Рассчитать</button>
+
+      <div id="result">0 $</div>
+
+      <div class="calc-actions">
+        <a id="whatsappBtn" target="_blank" class="btn whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <a id="telegramBtn" target="_blank" class="btn telegram">
+          <i class="fa-brands fa-telegram"></i> Telegram
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="process" class="section">
+  <div class="container">
+    <h2 class="title" data-aos="fade-up">Как мы работаем</h2>
+
+    <div class="steps">
+
+      <div class="step" data-aos="fade-up">
+        <div class="step-icon">
+          <i class="fa-solid fa-users"></i>
+        </div>
+        <span class="step-number">1 этап</span>
+        <p>Принимаем заявку и согласовываем детали</p>
+      </div>
+
+      <div class="step" data-aos="fade-up" data-aos-delay="100">
+        <div class="step-icon">
+          <i class="fa-solid fa-warehouse"></i>
+        </div>
+        <span class="step-number">2 этап</span>
+        <p>Принимаем груз в Иу и проверяем его</p>
+      </div>
+
+      <div class="step" data-aos="fade-up" data-aos-delay="200">
+        <div class="step-icon">
+          <i class="fa-solid fa-truck"></i>
+        </div>
+        <span class="step-number">3 этап</span>
+        <p>Отправляем товар по выбранному маршруту</p>
+      </div>
+
+      <div class="step" data-aos="fade-up" data-aos-delay="300">
+        <div class="step-icon">
+          <i class="fa-solid fa-file-shield"></i>
+        </div>
+        <span class="step-number">4 этап</span>
+        <p>Производим таможенное оформление</p>
+      </div>
+
+      <div class="step" data-aos="fade-up" data-aos-delay="400">
+        <div class="step-icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <span class="step-number">5 этап</span>
+        <p>Доставляем груз в страну назначения</p>
+      </div>
+
+      <div class="step" data-aos="fade-up" data-aos-delay="500">
+        <div class="step-icon">
+          <i class="fa-solid fa-handshake"></i>
+        </div>
+        <span class="step-number">6 этап</span>
+        <p>Вы оплачиваете доставку по факту получения</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="warehouses" class="section">
+  <div class="container">
+    <h2 class="title">Наши склады</h2>
+
+    <!-- КНОПКИ -->
+    <div class="warehouse-tabs">
+      <button onclick="showWarehouse('yiwu')" class="active">Иу</button>
+      <button onclick="showWarehouse('guangzhou')">Гуанчжоу</button>
+      <button onclick="showWarehouse('urumqi')">Урумчи</button>
+    </div>
+
+    <!-- КОНТЕНТ -->
+    <div class="warehouse-content">
+      <img id="warehouseImage" src="img/yiwu.jpg" alt="Склад Иу">
+
+      <div class="warehouse-info">
+        <h3 id="warehouseTitle">Склад в Иу</h3>
+        <p id="warehouseText">
+          Основной склад. Приём, консолидация, проверка, упаковка грузов.
+        </p>
+
+        <ul id="warehouseList">
+          <li>📦 Приём товаров</li>
+          <li>📸 Фото и видео отчёт</li>
+          <li>🚚 Отправка по СНГ</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" data-aos="fade-up">
+    <h2 class="title">Оставить заявку</h2>
+
+    <form class="contact-form">
+      <input type="text" id="name" placeholder="Ваше имя" required>
+      <input type="text" id="product" placeholder="Какой товар?" required>
+      <input type="number" id="kg" placeholder="Вес (кг)" required>
+      <textarea id="comment" placeholder="Комментарий"></textarea>
+
+      <button type="button" class="btn-whatsapp" onclick="sendForm('whatsapp')">
+       <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </button>
+
+      <button type="button" class="btn-telegram" onclick="sendForm('telegram')">
+       <i class="fa-brands fa-telegram"></i> Telegram
+     </button>
+    </form>
+  </div>
+</section>
+<section id="about" class="section about">
+  <div class="container" data-aos="fade-up">
+    <h2 class="title">О нас</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          <strong>Golden Dragon</strong> — профессиональная карго-компания,
+          специализирующаяся на доставке товаров из Китая по всему СНГ.
+        </p>
+
+        <p>
+          Мы работаем напрямую из <b>Иу, Гуанчжоу и Урумчи</b>,
+          обеспечивая полный цикл: от приёма товара на складе
+          до доставки клиенту.
+        </p>
+
+        <ul class="about-list">
+          <li><i class="fa-solid fa-check"></i> Собственные склады в Китае</li>
+          <li><i class="fa-solid fa-check"></i> Прозрачные тарифы</li>
+          <li><i class="fa-solid fa-check"></i> Фото и видео отчёты</li>
+          <li><i class="fa-solid fa-check"></i> Поддержка 24/7</li>
+        </ul>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat">
+          <h3>7+</h3>
+          <p>лет опыта</p>
+        </div>
+        <div class="stat">
+          <h3>1200+</h3>
+          <p>отправок</p>
+        </div>
+        <div class="stat">
+          <h3>3</h3>
+          <p>склада в Китае</p>
+        </div>
+        <div class="stat">
+          <h3>СНГ</h3>
+          <p>география</p>
+        </div>
+      </div>
+    </div>
+    <!-- Почему выбирают нас -->
+<div class="why-us" data-aos="fade-up">
+  <h3 class="subtitle">Почему выбирают нас</h3>
+  <div class="why-grid">
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Быстрое оформление и понятный процесс. Мы не затягиваем согласования. Сразу уточняем детали и запускаем работу без лишней бюрократии.</div>
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Меньше рисков. Склад и офис в Китае и в России, контроль груза на каждом этапе, сопровождение документов, страховка.</div>
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Выкуп + доставка под ключ. Не нужно отдельно искать посредников. Мы можем выкупить товар, проверить, упаковать и отправить.</div>
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Прозрачная коммуникация. Вы всегда понимаете, где ваш груз, что происходит и на каком этапе доставка.</div>
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Работаем с физлицами и юрлицами. Подбираем схему доставки под задачу: для бизнеса, маркетплейсов или личных поставок.</div>
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Фото и видео отчёты 24/7. По запросу предоставляем фото и видео груза, упаковки и этапов подготовки.</div>
+    <div class="why-item"><i class="fa-solid fa-check-circle"></i> Удобная оплата. Оплата в рублях / юанях / USDT, а также по безналу. Работаем по договору.</div>
+  </div>
+</div>
+
+<!-- FAQ — Частые вопросы -->
+<div class="faq" data-aos="fade-up">
+  <h3 class="subtitle">FAQ — Частые вопросы</h3>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Вы работаете только с бизнесом или с физлицами тоже?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Работаем и с юридическими, и с физическими лицами. Помогаем как для поставок в продажу, так и для личных заказов.</div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Что лучше: карго или белая доставка?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Карго чаще выбирают за скорость и удобство. Белая доставка подходит, когда важны официальные документы и оформление. Мы подскажем лучший вариант под ваш товар.</div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Можно ли заказать выкуп товара у поставщика?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Да. Мы можем выкупить товар, оплатить поставщику и организовать доставку под ключ.</div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Есть ли склад в Китае?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Да, у нас есть склад и офис в Китае, где мы принимаем, консолидируем, проверяем и упаковываем грузы.</div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Вы предоставляете фото и видео отчёты?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Да. По запросу предоставляем фото и видео отчёты 24/7 на этапе приёма и подготовки груза.</div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Как происходит оплата?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Возможна оплата в рублях, юанях, USDT, а также по безналичному расчёту.</div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFaq(this)">
+      <span>Какие товары вы не перевозите?</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+    <div class="faq-answer">Категории ограничений зависят от товара и маршрута. Уточняйте — мы проверим возможность перевозки по вашему запросу.</div>
+  </div>
+</div>
+  </div>
+</section>
+
+<section id="contacts" class="section dark">
+  <div class="container" data-aos="fade-up">
+    <h2 class="title">Контакты</h2>
+    <p><i class="fa-solid fa-location-dot"></i> Yiwu, Zhejiang Province, China</p>
+    <p><i class="fa-brands fa-whatsapp"></i> +86 138 0000 0000</p>
+    <p><i class="fa-brands fa-telegram"></i> @goldendragon</p>
+    <p><i class="fa-brands fa-telephone"></i>Tel:+86 186 0656 7347</p>
+  </div>
+</section>
+
+<footer class="footer">
+  © Golden Dragon 
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalText"></p>
+  </div>
+</div>
+<script>
+  AOS.init({
+    duration: 900,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 80
+  });
+</script>
+</body>
+</html>
